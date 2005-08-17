@@ -1,4 +1,4 @@
-# $Rev: 3262 $, $Date: 2005-08-15 12:17:57 $
+# $Rev: 3262 $, $Date: 2005-08-17 20:16:28 $
 #
 Summary:	Damage protocol and ancillary headers
 Summary(pl):	Nag³ówki protoko³u Damage i pomocnicze
@@ -30,6 +30,7 @@ Summary:	Damage protocol and ancillary headers
 Summary(pl):	Nag³ówki protoko³u Damage i pomocnicze
 Group:		X11/Development/Libraries
 Requires:	xorg-proto-xproto-devel
+Obsoletes:	damageext
 
 %description devel
 Damage protocol and ancillary headers.
