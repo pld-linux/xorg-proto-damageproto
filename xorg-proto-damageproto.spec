@@ -1,12 +1,12 @@
 Summary:	Damage protocol and ancillary headers
 Summary(pl):	Nag³ówki protoko³u Damage i pomocnicze
 Name:		xorg-proto-damageproto
-Version:	1.0
-Release:	0.02
+Version:	1.0.1
+Release:	0.1
 License:	MIT
 Group:		X11/Development/Libraries
-Source0:	http://xorg.freedesktop.org/X11R7.0-RC0/proto/damageproto-%{version}.tar.bz2
-# Source0-md5:	ecd46638de86ecce26cdd68136bd8c1f
+Source0:	http://xorg.freedesktop.org/releases/X11R7.0-RC1/proto/damageproto-%{version}.tar.bz2
+# Source0-md5:	ba4363b50409e53d5370f86f06ca8ae0
 URL:		http://xorg.freedesktop.org/
 BuildRequires:	autoconf
 BuildRequires:	automake
@@ -24,7 +24,7 @@ Nag³ówki protoko³u Damage i pomocnicze.
 Summary:	Damage protocol and ancillary headers
 Summary(pl):	Nag³ówki protoko³u Damage i pomocnicze
 Group:		X11/Development/Libraries
-Requires:	xorg-proto-xproto-devel
+Requires:	xorg-proto-fixesproto-devel
 Obsoletes:	damageext
 
 %description devel
