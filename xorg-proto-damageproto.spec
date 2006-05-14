@@ -33,7 +33,7 @@ Damage protocol and ancillary headers.
 Nag³ówki protoko³u Damage i pomocnicze.
 
 %prep
-%setup -q -n damageproto-X11R7.0-%{version}
+%setup -q -n damageproto-%{version}
 
 %build
 %{__aclocal}
