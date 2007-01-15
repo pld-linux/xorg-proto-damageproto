@@ -1,12 +1,12 @@
-Summary:	Damage protocol and ancillary headers
-Summary(pl):	Nag³ówki protoko³u Damage i pomocnicze
+Summary:	Damage extension headers
+Summary(pl):	Nag³ówki rozszerzenia Damage
 Name:		xorg-proto-damageproto
-Version:	1.0.3
+Version:	1.1.0
 Release:	1
 License:	MIT
 Group:		X11/Development/Libraries
 Source0:	http://xorg.freedesktop.org/releases/individual/proto/damageproto-%{version}.tar.bz2
-# Source0-md5:	b3eaee9850bb23020b9ac751626c7976
+# Source0-md5:	33ee591e0b1ca5ad7902934541db7d24
 URL:		http://xorg.freedesktop.org/
 BuildRequires:	autoconf >= 2.57
 BuildRequires:	automake
@@ -14,23 +14,23 @@ BuildRequires:	xorg-util-util-macros
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
 %description
-Damage protocol and ancillary headers.
+Damage extension headers.
 
 %description -l pl
-Nag³ówki protoko³u Damage i pomocnicze.
+Nag³ówki rozszerzenia Damage.
 
 %package devel
-Summary:	Damage protocol and ancillary headers
-Summary(pl):	Nag³ówki protoko³u Damage i pomocnicze
+Summary:	Damage extension headers
+Summary(pl):	Nag³ówki rozszerzenia Damage
 Group:		X11/Development/Libraries
 Requires:	xorg-proto-fixesproto-devel
 Obsoletes:	damageext
 
 %description devel
-Damage protocol and ancillary headers.
+Damage extension headers.
 
 %description devel -l pl
-Nag³ówki protoko³u Damage i pomocnicze.
+Nag³ówki rozszerzenia Damage.
 
 %prep
 %setup -q -n damageproto-%{version}
@@ -55,6 +55,6 @@ rm -rf $RPM_BUILD_ROOT
 
 %files devel
 %defattr(644,root,root,755)
-%doc COPYING ChangeLog
+%doc COPYING ChangeLog damageproto.txt
 %{_includedir}/X11/extensions/*.h
 %{_pkgconfigdir}/damageproto.pc
