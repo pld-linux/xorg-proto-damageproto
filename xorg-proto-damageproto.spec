@@ -1,5 +1,5 @@
 Summary:	Damage extension headers
-Summary(pl):	Nag丑wki rozszerzenia Damage
+Summary(pl.UTF-8):   Nag艂贸wki rozszerzenia Damage
 Name:		xorg-proto-damageproto
 Version:	1.1.0
 Release:	1
@@ -16,12 +16,12 @@ BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 %description
 Damage extension headers.
 
-%description -l pl
-Nag丑wki rozszerzenia Damage.
+%description -l pl.UTF-8
+Nag艂贸wki rozszerzenia Damage.
 
 %package devel
 Summary:	Damage extension headers
-Summary(pl):	Nag丑wki rozszerzenia Damage
+Summary(pl.UTF-8):   Nag艂贸wki rozszerzenia Damage
 Group:		X11/Development/Libraries
 Requires:	xorg-proto-fixesproto-devel
 Obsoletes:	damageext
@@ -29,8 +29,8 @@ Obsoletes:	damageext
 %description devel
 Damage extension headers.
 
-%description devel -l pl
-Nag丑wki rozszerzenia Damage.
+%description devel -l pl.UTF-8
+Nag艂贸wki rozszerzenia Damage.
 
 %prep
 %setup -q -n damageproto-%{version}
