@@ -1,13 +1,14 @@
+# NOTE: now maintained in xorg-proto-xorgproto.spec
 Summary:	Damage extension headers
 Summary(pl.UTF-8):	Nagłówki rozszerzenia Damage
 Name:		xorg-proto-damageproto
 Version:	1.2.1
-Release:	2
+Release:	2.1
 License:	MIT
 Group:		X11/Development/Libraries
-Source0:	http://xorg.freedesktop.org/releases/individual/proto/damageproto-%{version}.tar.bz2
+Source0:	https://xorg.freedesktop.org/releases/individual/proto/damageproto-%{version}.tar.bz2
 # Source0-md5:	998e5904764b82642cc63d97b4ba9e95
-URL:		http://xorg.freedesktop.org/
+URL:		https://xorg.freedesktop.org/
 BuildRequires:	autoconf >= 2.60
 BuildRequires:	automake
 BuildRequires:	xorg-util-util-macros >= 1.3
